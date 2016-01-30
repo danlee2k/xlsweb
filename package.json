@@ -1,0 +1,22 @@
+{
+  "name": "xlsweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "xlsweb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danlee2k/xlsweb.git"
+  },
+  "author": "Den",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danlee2k/xlsweb/issues"
+  },
+  "homepage": "https://github.com/danlee2k/xlsweb#readme",
+  "dependencies": {
+    "xlsx-to-json": "^0.2.4"
+  }
+}
