@@ -1,13 +1,12 @@
-
-
 xlsxj = require("xlsx-to-json"); // npm install xlsx-to-json
-  xlsxj({
+
+xlsxj({
     input: "table.xlsx",
     output: "webjson.json"
   }, function(err, result) {
-    if(err) {
+    if (err) {
       console.error(err);
-    }else {
+    } else {
       console.log(result);
-    }
+    };
   });
